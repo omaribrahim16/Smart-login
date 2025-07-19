@@ -32,7 +32,7 @@ function add(){
             password: signPassword.value
         }
         userList.push(obj);
-        location.href = "../index.html";
+        location.href = "../../login/index.html";
         localStorage.setItem("userList", JSON.stringify(userList));
         }
         

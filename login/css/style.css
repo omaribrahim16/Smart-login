@@ -2,7 +2,7 @@ body {
     background-color: rgb(36, 53, 63);
     font-family: 'Titillium Web', sans-serif;
     color: white;
-    
+
 }
 
 .group {
@@ -18,9 +18,9 @@ body {
 .form-control {
     background-color: rgb(36, 53, 63);
     color: white;
-    
+
 }
 
 .form-control::placeholder {
-    color: grey; 
+    color: grey;
 }

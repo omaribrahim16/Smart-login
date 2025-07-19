@@ -18,7 +18,7 @@ function validateUser() {
         if(signEmail.value == userList[i].email && signPassword.value == userList[i].password){
             var currentUser = userList[i].name;
             localStorage.setItem('currentUser', currentUser);
-            location.href='../welcome.html';
+            location.href='../../welcome/index.html';
             break;
         }
         else{
@@ -29,6 +29,3 @@ function validateUser() {
         }
     }
 }
-
-
-

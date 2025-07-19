@@ -2,5 +2,5 @@ document.getElementById("userName").innerHTML = localStorage.getItem("currentUse
 
 document.getElementById("logout").addEventListener("click", function (){
     localStorage.removeItem("currentUser");
-    location.href = "../index.html";
+    location.href = "../login/index.html";
 })
